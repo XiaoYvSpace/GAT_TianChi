@@ -17,7 +17,7 @@ np.random.seed(seed)
 # 设置PyTorch随机数种子
 torch.manual_seed(seed)
 torch.cuda.manual_seed_all(seed)
-# 测试git
+
 
 class GraphAttentionLayer(nn.Module):
     def __init__(self, in_features, out_features, dropout):
